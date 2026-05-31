@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loja Fashion</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+header {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background: white;
+    width: 250px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Loja Fashion</h1>
+    <p>As melhores roupas com os melhores preços</p>
+</header>
+
+<section class="produtos">
+
+    <div class="produto">
+        <img src="https://via.placeholder.com/250x300" alt="Camiseta">
+        <h2>Camiseta Básica</h2>
+        <p>R$ 49,90</p>
+        <button>Comprar</button>
+    </div>
+
+    <div class="produto">
+        <img src="https://via.placeholder.com/250x300" alt="Calça">
+        <h2>Calça Jeans</h2>
+        <p>R$ 129,90</p>
+        <button>Comprar</button>
+    </div>
+
+    <div class="produto">
+        <img src="https://via.placeholder.com/250x300" alt="Moletom">
+        <h2>Moletom</h2>
+        <p>R$ 99,90</p>
+        <button>Comprar</button>
+    </div>
+
+</section>
+
+</body>
+</html>
